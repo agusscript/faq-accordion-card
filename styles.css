@@ -41,6 +41,7 @@ main {
   min-height: 500px;
   background-color: white;
   border-radius: 1.3rem;
+  box-shadow: 0px 9px 30px 5px rgba(0,0,0,0.25);
 }
 
 .img-container {
@@ -235,5 +236,96 @@ main {
   
   .faq-p-answer-show {
     display: block;
+  }
+}
+
+@media(max-width: 620px) {
+  body {
+    margin: 11rem 0 2rem 0;
+  }
+  
+  .card {
+    width: 400px;
+    min-height: 560px;
+  }
+  
+  .img-container {
+    width: 400px;
+    height: 150px;
+  }
+
+  .woman-img-mobile {
+    width: 320px;
+    translate: 40px -148px;
+  }
+  
+  .bg-pattern-container {
+    background-size: 320px;
+    background-position: 38px -6px;
+  }
+  
+  .faq-container {
+    width: 400px; 
+    min-height: 360px;
+  }
+  
+  .faq-container h1 {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  
+  .faq-text-container {
+    margin-top: 3px;
+    width: 80%;
+    height: auto;
+  }
+  
+  .faq-text-container svg {
+    left: 308px;
+    top: 21px;
+  }
+}
+
+@media(max-width: 420px) {
+  body {
+    margin: 8rem 0 2rem 0;
+  }
+  
+  .card {
+    width: 310px;
+    min-height: 480px;
+  }
+  
+  .img-container {
+    width: 310px;
+    height: 100px;
+  }
+
+  .woman-img-mobile {
+    width: 220px;
+    translate: 40px -100px;
+  }
+  
+  .bg-pattern-container {
+    background-size: 220px;
+    background-position: 38px 4px;
+  }
+  
+  .faq-container {
+    width: 310px; 
+    min-height: 360px;
+  }
+  
+  .faq-text-container {
+    margin-top: 3px;
+  }
+
+  .faq-p {
+    font-size: 0.8rem;
+  }
+  
+  .faq-text-container svg {
+    left: 242px;
+    top: 18px;
   }
 }
