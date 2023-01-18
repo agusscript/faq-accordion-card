@@ -304,8 +304,7 @@ main {
     width: 100%;
     height: 216px;
     background-position: 48px 40px;
-    translate: 0 -134px;
-    border: 1px solid red;
+    transform: translateY(56px);
   }
   
   .bg-pattern-container {
