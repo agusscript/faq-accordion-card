@@ -172,12 +172,15 @@ main {
   }
   
   .woman-img-container {
+    position: absolute;
+    margin-bottom: 0;
     background-image: url(images/illustration-woman-online-mobile.svg);
     background-size: 490px;
     background-position: center;
-    width: 490px;
-    height: 420px;
-    translate: 54px -240px;
+    width: 100%;
+    height: 400px;
+    background-position: 54px 2px;
+    translate: 0 -220px;
   }
   
   .bg-pattern-container {
@@ -186,7 +189,7 @@ main {
     height: 100%;
     background-image: url(images/bg-pattern-mobile.svg);
     background-size: 500px;
-    background-position: 46px -2px;
+    background-position: 48px -2px;
   }
   
   .box-img {
@@ -248,9 +251,10 @@ main {
 
   .woman-img-container {
     background-size: 310px;
-    width: 310px;
-    height: 340px;
-    translate: 44px -192px;
+    width: 100%;
+    height: 300px;
+    background-position: 44px 52px;
+    translate: 0px -192px;
   }
   
   .bg-pattern-container {
@@ -297,9 +301,10 @@ main {
 
   .woman-img-container {
     background-size: 210px;
-    width: 210px;
-    height: 240px;
-    translate: 48px -134px;
+    width: 100%;
+    height: 216px;
+    background-position: 48px 40px;
+    translate: 0 -134px;
   }
   
   .bg-pattern-container {
