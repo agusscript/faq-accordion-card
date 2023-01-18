@@ -303,7 +303,7 @@ main {
 
   .woman-img-mobile {
     width: 220px;
-    translate: 18% -60%;
+    top: 49px ;    /*position, translate anterior, cambiar imagen por background*/
   }
   
   .bg-pattern-container {
