@@ -149,6 +149,16 @@ main {
   font-weight: 400;
   margin-top: 0;
   user-select: none;
+  animation: smoth 1s;
+}
+
+@keyframes smoth {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
  @media(max-width: 960px) {
